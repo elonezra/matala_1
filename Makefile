@@ -22,7 +22,7 @@ power.o: power.c myMath.h
 main.o: main.c myMath.h
 	$(CC) $(FLAG) -c main.c
 
-.PHONY: clean all
+.PHONY: clean all maind mains mymaths mymathd
 
 clean:
-	rm -f *.o *.a *.so progmains progmaind
+	rm -f *.o *.a *.so progmains progmaind maind mains
